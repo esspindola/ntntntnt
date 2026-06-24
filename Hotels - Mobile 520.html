@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOKYO — Hotels · 520px</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="mobile520.css">
+</head>
+<body class="m520">
+
+<!-- NAV -->
+<nav class="nav">
+  <a class="nav__brand" href="Home.html">TOKYO<span class="dot"></span></a>
+  <ul class="nav__links">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Tourism.html">Tourism</a></li>
+    <li><a href="Gastronomy.html">Gastronomy</a></li>
+    <li><a href="Hotels.html" aria-current="page">Hotels</a></li>
+  </ul>
+  <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+</nav>
+
+<!-- PAGE HERO -->
+<header class="hero" style="min-height:86svh;">
+  <div class="hero__bg">
+    <div class="media">
+    </div>
+  </div>
+  <div class="hero__scrim"></div>
+  <div class="hero__top wrap">
+    <div class="hero__meta">
+      <span class="kicker"><span class="dot">●</span> SECTION 03 — STAY</span>
+      <span class="kicker">4 WAYS TO SLEEP</span>
+    </div>
+  </div>
+  <div class="hero__inner wrap">
+    <h1 class="display hero__title" style="font-size:clamp(3.2rem,16vw,16rem);">Stay</h1>
+    <div class="hero__sub">
+      <p class="lede">A skyline suite, a tatami room, or a single glowing pod. However you sleep in Tokyo, the hospitality is absolute.</p>
+      <span class="hero__scroll"><span class="ln"></span> Four ways below</span>
+    </div>
+  </div>
+</header>
+
+<!-- BOOKING BAR -->
+<section class="section--tight" style="padding-block:clamp(2rem,4vw,3.5rem) 0;">
+  <div class="wrap">
+    <div class="booking reveal" style="display:grid;grid-template-columns:repeat(4,1fr) auto;gap:1px;background:var(--line);border:1px solid var(--line);">
+      <label style="background:var(--surface);padding:1.2rem 1.4rem;display:flex;flex-direction:column;gap:0.4rem;">
+        <span class="kicker">Check in</span>
+        <span style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;">12 Apr 2026</span>
+      </label>
+      <label style="background:var(--surface);padding:1.2rem 1.4rem;display:flex;flex-direction:column;gap:0.4rem;">
+        <span class="kicker">Check out</span>
+        <span style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;">16 Apr 2026</span>
+      </label>
+      <label style="background:var(--surface);padding:1.2rem 1.4rem;display:flex;flex-direction:column;gap:0.4rem;">
+        <span class="kicker">Guests</span>
+        <span style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;">2 Adults</span>
+      </label>
+      <label style="background:var(--surface);padding:1.2rem 1.4rem;display:flex;flex-direction:column;gap:0.4rem;">
+        <span class="kicker">District</span>
+        <span style="font-family:var(--font-display);font-weight:700;font-size:1.05rem;">Any · Tokyo</span>
+      </label>
+      <button class="btn btn--primary" style="border:none;height:100%;">Search <span class="arw">→</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- LUXURY HOTELS -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2 class="section__title">Luxury<br>Hotels</h2>
+      <span class="section__index">— SKY-HIGH</span>
+    </div>
+
+    <div class="hotel reveal" style="border-top:none;padding-top:0;">
+      <div class="hotel__media card__media ar-43">
+        <div class="media">
+          <span class="badge">★★★★★</span>
+      </div>
+      </div>
+      <div class="hotel__info">
+        <span class="hotel__cat">Luxury · Chiyoda</span>
+        <h3 class="hotel__name">The Peak Tower</h3>
+        <p class="hotel__desc">Floors 38–52 above the Imperial gardens. Butler service, a Michelin kaiseki room, and the city at your feet.</p>
+        <div class="hotel__feat">
+          <span class="chip">Skyline view</span>
+          <span class="chip">Spa &amp; onsen</span>
+          <span class="chip">Kaiseki</span>
+          <span class="chip">Butler</span>
+        </div>
+        <div class="hotel__book">
+          <div class="price"><span class="price__num">¥98,000 <small>/ night</small></span><span class="price__lab">incl. breakfast</span></div>
+          <a class="btn btn--red" href="#">Reserve <span class="arw">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RYOKAN -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="hotel reveal">
+      <div class="hotel__info">
+        <span class="hotel__cat">Ryokan · Asakusa</span>
+        <h3 class="hotel__name">Kawa Ryokan</h3>
+        <p class="hotel__desc">A traditional inn beside the river. Tatami rooms, futon bedding, a private cedar bath and a multi-course breakfast served in-room.</p>
+        <div class="hotel__feat">
+          <span class="chip">Tatami</span>
+          <span class="chip">Private onsen</span>
+          <span class="chip">Kaiseki dinner</span>
+          <span class="chip">Yukata</span>
+        </div>
+        <div class="hotel__book">
+          <div class="price"><span class="price__num">¥48,000 <small>/ night</small></span><span class="price__lab">half board</span></div>
+          <a class="btn btn--red" href="#">Reserve <span class="arw">→</span></a>
+        </div>
+      </div>
+      <div class="hotel__media card__media ar-43">
+        <div class="media">
+          <span class="badge">Ryokan</span>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODERN SUITES -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="hotel reveal">
+      <div class="hotel__media card__media ar-43">
+        <div class="media">
+          <span class="badge">Design</span>
+      </div>
+      </div>
+      <div class="hotel__info">
+        <span class="hotel__cat">Modern Suite · Shibuya</span>
+        <h3 class="hotel__name">Mute Hotel</h3>
+        <p class="hotel__desc">Design-led calm above the world's busiest crossing. Concrete, oak and silence — engineered down to the lighting temperature.</p>
+        <div class="hotel__feat">
+          <span class="chip">Design suite</span>
+          <span class="chip">Rooftop bar</span>
+          <span class="chip">Workspace</span>
+          <span class="chip">24h gym</span>
+        </div>
+        <div class="hotel__book">
+          <div class="price"><span class="price__num">¥36,000 <small>/ night</small></span><span class="price__lab">room only</span></div>
+          <a class="btn btn--red" href="#">Reserve <span class="arw">→</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAPSULE -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2 class="section__title">Capsule<br>Hotels</h2>
+      <span class="section__index">— THE TOKYO ICON</span>
+    </div>
+    <div class="cols cols-3">
+      <article class="card reveal">
+        <div class="card__media ar-11"><div class="media">
+      </div></div>
+        <div class="card__head"><span class="card__no">A</span><h3 class="card__title">Standard Pod</h3></div>
+        <p class="card__desc">A perfectly engineered sleeping cell — lighting, sound and climate at your fingertips.</p>
+        <div class="hotel__book" style="margin-top:0.6rem;">
+          <div class="price"><span class="price__num">¥4,500 <small>/ night</small></span></div>
+          <a class="btn btn--ghost" href="#" style="padding:0.7rem 1.1rem;">Book</a>
+        </div>
+      </article>
+      <article class="card reveal" data-d="1">
+        <div class="card__media ar-11"><div class="media">
+      </div></div>
+        <div class="card__head"><span class="card__no">B</span><h3 class="card__title">Premium Cabin</h3></div>
+        <p class="card__desc">A larger pod with a private screen, locker suite and access to the bath floor.</p>
+        <div class="hotel__book" style="margin-top:0.6rem;">
+          <div class="price"><span class="price__num">¥7,200 <small>/ night</small></span></div>
+          <a class="btn btn--ghost" href="#" style="padding:0.7rem 1.1rem;">Book</a>
+        </div>
+      </article>
+      <article class="card reveal" data-d="2">
+        <div class="card__media ar-11"><div class="media">
+      </div></div>
+        <div class="card__head"><span class="card__no">C</span><h3 class="card__title">Lounge Pass</h3></div>
+        <p class="card__desc">Co-working lounge, sauna and capsule combined — the modern transit stay.</p>
+        <div class="hotel__book" style="margin-top:0.6rem;">
+          <div class="price"><span class="price__num">¥9,800 <small>/ night</small></span></div>
+          <a class="btn btn--ghost" href="#" style="padding:0.7rem 1.1rem;">Book</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">TOKYO</div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="Tourism.html">Tourism</a>
+          <a href="Gastronomy.html">Gastronomy</a>
+          <a href="Hotels.html">Hotels</a>
+        </div>
+        <div class="footer__col">
+          <h4>Stay</h4>
+          <a href="#">Luxury</a>
+          <a href="#">Ryokan</a>
+          <a href="#">Capsule</a>
+        </div>
+        <div class="footer__col">
+          <h4>Connect</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Press</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <span>© 2026 Tokyo Guide — A travel experience</span>
+      <span>東京 · Tradition meets future</span>
+    </div>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
